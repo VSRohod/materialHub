@@ -1,0 +1,55 @@
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: BebasNeue;
+    src: url(../fonts/Bebas_Neue/BebasNeue-Regular.ttf);
+}
+
+
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: Roboto;
+}
+
+#pagina{
+    width: 100%;
+    height: auto;
+}
+
+#logo{
+    width: 150px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: BebasNeue;
+    letter-spacing: 5px;
+}
+
+section{
+    width: 100%;
+    height: auto;
+    padding: 20px 0px;
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner{
+    background-color: rgb(47, 98, 194);
+    color: white;
+}
+
+#dicionarios{
+    background-color: rgb(192, 148, 233);
+}
+
+.dicionarioOpcao{
+    width: 80%;
+    height: 200px;
+    background-color: blue;
+}
