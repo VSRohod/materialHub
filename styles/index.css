@@ -40,16 +40,66 @@ section{
 }
 
 #banner{
-    background-color: rgb(47, 98, 194);
+    background-color: rgb(31, 103, 237);
     color: white;
 }
 
 #dicionarios{
-    background-color: rgb(192, 148, 233);
+    background-color: rgb(202, 202, 202);
+}
+
+a{
+    width: 60%;
+    margin: 20px auto;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.efeito{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(52, 52, 52, 0.577);
 }
 
 .dicionarioOpcao{
-    width: 80%;
-    height: 200px;
-    background-color: blue;
+    width: 100%;
+    height: 200px;    
+}
+
+.dicionarioDescricao{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+/* FLEXBOX */   
+
+#descFlexBox{
+    background: rgb(220,20,60);
+    background: linear-gradient(90deg, rgba(220,20,60,1) 52%, rgba(220,20,60,1) 75%, rgba(0,212,255,0) 100%);
+}
+
+#flexboxSection{
+    background-image: url(../images/backgrounds/flexBg.png);
+}
+
+/* BOOTSTRAP */
+
+#descBootstrap{
+    background: rgb(13,110,253);
+    background: linear-gradient(90deg, rgba(13,110,253,1) 52%, rgba(13,110,253,1) 75%, rgba(0,212,255,0) 100%);
+}
+
+#bootstrapSection{
+    background-image: url(../images/backgrounds/bootstrapBg.png);
+    background-position: top;
 }
