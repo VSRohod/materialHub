@@ -1,12 +1,16 @@
-.dicionarioDescricao{
+.dicionarioDescricao {
     width: 100%;
 }
 
-#descFlexBox{
-    background: rgb(220,20,60);
+#descFlexBox {
+    background: rgb(220, 20, 60);
 }
 
 
-#descBootstrap{
-    background: rgb(13,110,253);
+#descBootstrap {
+    background: rgb(13, 110, 253);
+}
+
+#descBooks {
+    background: rgb(47, 50, 54);
 }
